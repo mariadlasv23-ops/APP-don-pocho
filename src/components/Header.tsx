@@ -64,9 +64,11 @@ export const Header: React.FC = () => {
               onClick={() => setActiveNavTab('home')}
               className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#910608] font-display flex items-center gap-2.5 whitespace-nowrap shrink-0 cursor-pointer"
             >
-              <span className="w-9 h-9 rounded-xl bg-[#910608] text-[#F8E6A0] flex items-center justify-center text-sm font-extrabold shadow-sm">
-                DP
-              </span>
+              <img
+                src="/assets/aistudio/image_c534580a.png"
+                alt="Logo Don Pochito"
+                className="w-10 h-10 rounded-xl object-cover shadow-sm border border-[#F8E6A0]"
+              />
               <span>{settings.storeName}</span>
             </button>
 
